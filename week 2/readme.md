@@ -1,0 +1,1 @@
+The assignment that Chat GPT mdae for me was a lot longer, has a lot more requirements, and was in general a lot less personal than our assignment. If i was only using output from this model, especially for homework, I would really feel like I couldnt express myself through coding at all. Its pretty obvisous that the work would not be mine anymore. 
