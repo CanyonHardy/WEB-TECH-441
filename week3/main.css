@@ -1,0 +1,17 @@
+body {
+    font-family:monospace;
+    font-size: 25px;
+    font-weight:900;
+    background-image:url(../week3/images/bar.v1.jpg);
+    align-content: center;
+    
+}
+div {
+    background-image: url(./images/back.jpg);
+    border: none;
+    color:rgb(202, 161, 122);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
