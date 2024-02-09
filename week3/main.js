@@ -82,7 +82,7 @@ function storyFunction(choice) {
 
 
     } else if (choice == 2 && answer2 == "Jolt up to see who just touched you") {
-        document.getElementById("story").innerHTML = "Even though your head is heavy with sleepieness, you just can't shake the feeling that someone was there on your right. But when you jolt your head awake and look around, there isn't anyone there. However, the seat next to you had an indent in the cushion and fry crumbs all over it. You feel a little freaked out. You were SURE that some boney hand must have touched you..<br><h2>Mystery Ending..?</h2>";
+        document.getElementById("story").innerHTML = "Even though your head is heavy with sleepiness, you just can't shake the feeling that someone was there on your right. But when you jolt your head awake and look around, there isn't anyone there. However, the seat next to you had an indent in the cushion and fry crumbs all over it. You feel a little freaked out. You were SURE that some boney hand must have touched you..<br><h2>Mystery Ending..?</h2>";
         document.getElementById("choice1").innerHTML = "...";
         document.getElementById("choice2").innerHTML = "....weird..";
 
