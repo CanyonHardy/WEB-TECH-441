@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JavaScript Testing</title>
+
+<style>
+    body {background-image: url(paper\ div\ 2.5.png);}
+       h1{color:rgb(56, 37, 37); font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 60px; }
+       h2{color:rgb(38, 34, 48)}
+       h3{color:rgb(88, 79, 79)}
+    body{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: rgb(18, 18, 26); font-size: 20px;}
+       </style>
+       </head>
+<body>
+<center>
+    <script>
+        function getChoice1()
+        {
+            var myChoice = document.getElementById("choice").value;
+            var myQuestion = document.getElementById("question");
+            if(myChoice === "Femm")
+            {
+                document.getElementById("choice").style.display="none";
+                document.getElementById("btnSubmit").style.display="none";
+                
+                document.getElementById("choice2").style.display="block";
+                document.getElementById("btnSubmit2").style.display="block";
+                
+                document.getElementById("mainImage").src = "FEMBASE.png"
+                myQuestion.innerHTML = "Cute! Here's the femm base. Would you like them to have short or long hair?";
+            }
+            else if(myChoice === "Masc")
+            {
+                document.getElementById("choice").style.display="none";
+                document.getElementById("btnSubmit").style.display="none";
+                
+                document.getElementById("choice3").style.display="block";
+                document.getElementById("btnSubmit3").style.display="block";
+                myQuestion.innerHTML = "Alright, heres the Masculine base. Now, do you want short or long hair on the base?";
+            document.getElementById("mainImage").src = "MASCBASE.png"
+            }
+            else if(myChoice === "Androgynous")
+            {
+                document.getElementById("choice").style.display="none";
+                document.getElementById("btnSubmit").style.display="none";
+            
+                document.getElementById("choice4").style.display="block";
+                document.getElementById("btnSubmit4").style.display="block";
+                myQuestion.innerHTML = "Heres the Androgynous base! Would you like them to have short or long hair? ";
+                document.getElementById("mainImage").src = "ANBASE.png"
+
+            }
+            else
+            {
+                myQuestion.innerHTML = "Invalid answer";
+            }
+        
+
+
+
+
+
+        }
+        function getChoice2()
+        {
+            var answer = document.getElementById("choice2").value;
+            var myQuestion = document.getElementById("question");
+            if(answer === "long")
+            {
+                document.getElementById("mainImage").src = "FEMML.png"
+                myQuestion.innerHTML = "Nice! It looks good long!";
+            }
+            else if(answer === "short")
+            {
+                document.getElementById("mainImage").src = "FEMMS.png"
+                myQuestion.innerHTML = "Wooww what cute short hair!";
+            }
+        }
+
+        function getChoice3()
+        {
+            var answer = document.getElementById("choice3").value;
+            var myQuestion = document.getElementById("question");
+            if(answer === "short")
+            {
+                document.getElementById("mainImage").src = "MASCS.png"
+                myQuestion.innerHTML = "Looks nice like that!";
+            }
+                
+            else if(answer === "long")
+            {  document.getElementById("mainImage").src = "MASCL.png"
+                myQuestion.innerHTML = "This is classic! How pretty!";
+           
+            }
+            
+        }
+        function getChoice4()
+        {
+            var answer = document.getElementById("choice4").value;
+            var myQuestion = document.getElementById("question");
+            if(answer === "long")
+            {
+                document.getElementById("mainImage").src = "ANL.png"
+                myQuestion.innerHTML = "ooo very cool >:)";
+              
+            }
+            else if(answer === "short")
+            {
+                document.getElementById("mainImage").src = "ANS.png"
+                myQuestion.innerHTML = "nice and fluffy!";
+                
+            }
+        }
+    </script>
+    <body>
+
+        <h1>Now now, who are you?</h1>
+        <br>
+        <img src="mainImage.png" width="650" id="mainImage">
+    <div id="question">
+        <Br></Br>
+        <h2>
+            Customize the base avatar to look like you~!
+        </h2>
+
+    <h3>
+      Type in your prefered body type:
+      </h3>
+
+      Androgynous 
+      <br>
+      Masc
+      <br>
+      Femm
+    </div>
+       
+        <br>
+        <input type="text" size="30" id="choice" value="Enter Androgynous, Masc, or Femm">
+        <button id="btnSubmit" onclick="getChoice1();">Click to continue</button>
+
+        <input type="text" size="30" id="choice2" value="Enter short or long" style="display:none">
+        <button id="btnSubmit2" onclick="getChoice2();"  style="display:none">Click to continue</button>
+
+        <input type="text" size="30" id="choice3" value="Enter short or long"  style="display:none">
+        <button id="btnSubmit3" onclick="getChoice3();" style="display:none">Click to continue</button>
+
+        <input type="text" size="30" id="choice4" value="Enter short or long"  style="display:none">
+        <button id="btnSubmit4" onclick="getChoice4();" style="display:none">Click to continue</button>
+
+        
+
+    </body>
+</center>
+
+</html>
