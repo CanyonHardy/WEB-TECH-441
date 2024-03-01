@@ -31,7 +31,7 @@ function printBlanks() {
 }
 
 function createRandomImageArray() {
-    var actualImagePath = ["images/a.jpg", "images/b.jpg", "images/c.jpg", "images/d.jpg", "images/e.jpg", "images/f.jpg"];
+    var actualImagePath = ["images/a.JPG", "images/b.JPG", "images/c.JPG", "images/d.JPG", "images/e.JPG", "images/f.JPG"];
     var count = [0, 0, 0, 0, 0, 0]; // Create an array to track counts for each image
     while (actualImages.length < 12) {
         var randomNumber = Math.floor(Math.random() * actualImagePath.length);
