@@ -1,0 +1,14 @@
+{
+    "birthday" : "July 27",
+    "region" : "Inuzuma",
+    "name" : {
+        "firstName" : "Yae",
+        "lastName" : "Miko"
+    },
+    "abilities" : [
+        "normal attack",
+        "charged attack",
+        "elemental skill",
+        "elemental burst"
+    ]
+}

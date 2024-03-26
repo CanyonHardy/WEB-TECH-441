@@ -1,0 +1,5 @@
+<miko>
+	<birthday>July 27</birthday>
+	<region>Inuzuma</region>
+	
+</miko>
