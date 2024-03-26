@@ -17,7 +17,7 @@
 /* global */
 
 body {
-	background-image: url(https://static.wikia.nocookie.net/gensin-impact/images/8/89/Yae_Miko_Card.png/revision/latest/scale-to-width-down/1000?cb=20211231161334);
+	background-image: url(../background.JPG);
 	color: #222;
 	cursor: default;
 	display: flex;
